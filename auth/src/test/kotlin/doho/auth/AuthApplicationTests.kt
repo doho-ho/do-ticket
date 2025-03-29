@@ -1,10 +1,10 @@
-package doho.doticket
+package doho.auth
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DoticketApplicationTests {
+class AuthApplicationTests {
 
     @Test
     fun contextLoads() {

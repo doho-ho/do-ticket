@@ -1,11 +1,11 @@
-package doho.doticket
+package doho.auth
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DoticketApplication
+class AuthApplication
 
 fun main(args: Array<String>) {
-    runApplication<DoticketApplication>(*args)
+    runApplication<AuthApplication>(*args)
 }
