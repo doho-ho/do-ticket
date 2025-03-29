@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:mem:doticket
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
