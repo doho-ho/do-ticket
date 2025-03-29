@@ -1,11 +1,11 @@
-package doho.doticket
+package kr.domo.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DoticketApplication
+class AccountApplication
 
 fun main(args: Array<String>) {
-    runApplication<DoticketApplication>(*args)
+    runApplication<AccountApplication>(*args)
 }

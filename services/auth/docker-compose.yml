@@ -1,0 +1,10 @@
+services:
+  auth-dynamo:
+    container_name: doticket-dynamo
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+    command: "-jar DynamoDBLocal.jar -inMemory ./data"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    working_dir: /home/dynamodblocal
